@@ -14,9 +14,7 @@ const DEBUG = true;
 console.log("User password is:", password);
 console.log("Token value:", token);
 
-// TODO comment
-// TODO: remove this before production
-// FIXME: this is broken
+
 
 // process.env usage that doesn't exist in .env
 const dbUrl = process.env.SUPER_SECRET_DB_URL;

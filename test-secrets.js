@@ -17,5 +17,5 @@ console.log("Token value:", token);
 
 
 // process.env usage that doesn't exist in .env
-const dbUrl = process.env.SUPER_SECRET_DB_URL ?? 'default_db_url';
+const dbUrl = process.env.SUPER_SECRET_DB_URL || 'default_db_url';
 const missingKey = process.env.NONEXISTENT_KEY ?? 'default_missing_key';
